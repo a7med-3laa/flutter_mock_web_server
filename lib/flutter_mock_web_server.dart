@@ -17,7 +17,7 @@ class MockWebServer {
   int get port => _port;
 
   /// The URL of the server.
-  String get url => 'https://127.0.0.1:$_port';
+  String get url => 'http://127.0.0.1:$_port';
 
   /// Starts the server.
   ///
